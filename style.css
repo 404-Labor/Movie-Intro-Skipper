@@ -1,0 +1,39 @@
+:host {
+    border-radius: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+button {
+    border: none;
+    background-color: #E50914;
+    color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: medium;
+    font-weight: 600;
+    height: 3rem;
+    width: 3rem;
+}
+
+button.active {
+    background-color: #378805;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+input {
+    all: unset;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+}
