@@ -21,9 +21,6 @@
             "1024": "images/icon1024.webp"
         }
     },
-    "host_permissions": [
-        "<all_urls>"
-    ],
     "content_scripts": [
         {
             "matches": [
